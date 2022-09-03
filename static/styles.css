@@ -1,0 +1,68 @@
+.First_Section{
+    background-color: #EC7272;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.first_section_prop{
+    padding: 5% 15%;
+    text-align: left;
+}
+
+/*Input button Props.*/
+
+.Sc_1_1{
+    width:450px;
+    height: 350px;
+    background-color: #fff;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.user_h1{
+    margin-bottom: 35px;
+    color: red;
+}
+
+.Input_1{
+    margin-bottom: 10px;
+}
+
+.Input_2{
+    margin-bottom: 10px;
+}
+
+.Input_3{
+    margin-bottom: 10px;
+}
+
+.Stackings{
+    margin-left: 28px;
+}
+
+#Material{
+    margin-left: 15px;
+}
+
+.Generate_Button{
+    margin: 20px 0px;
+
+}
+
+/* Section_1_2 */
+
+.Sc_1_2{
+    width: 250px;
+    color: yellow;
+    padding-top: 10%;
+    margin-left: 50px;
+}
+.Sc_1_3{
+    padding-top: 4%;
+
+    background-color: #fff;
+}
+.results{
+    text-align:center;
+    color:red;
+}

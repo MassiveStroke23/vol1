@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Adam Engineering</title>
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="static/styles.css">
+    </head>
+    <body>
+        <section class="First_Section">
+            <div class="row first_section_prop">
+                <div class="col-lg-4 col-md-4 col-sm-12 Sc_1_1">
+                     <form action="/home_page" method="post">
+                        <h1 class="user_h1"> User Inputs</h1>
+                        <div class="Input_1">
+                            <label for="Stacking"> Please Enter Stackings: </label>
+                            <input type="text" id="Stacking" name="Stacking" class="Stackings">
+                        </div>
+                        <div class="Input_2">
+                            <label for="Material"> Please Enter Material-ID: </label>
+                            <input type="text" id="Material" name="Material">
+                        </div>
+                        <div class="Input_3">
+                            <label for="PlyThickness"> Please Enter Ply-Thickness: </label>
+                            <input type="text" id="PlyThickness" name="PlyThickness">
+                        </div>
+                        <button class="btn btn-primary Generate_Button" type="submit">Generate NASTRAN Card</button>
+                     </form>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 Sc_1_2">
+                    <h1> >>>>>>> </h1>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 Sc_1_3">
+                    <h1 class="results"> OutPut Section</h1>
+                    <h2> Your Stacking: {{stack}}</h2>
+                    <h2> Your Material: {{mat}}</h2>
+                    <h2> Your Thickness: {{thick}}</h2>
+                </div>
+            </div>
+        </section>
+
+    </body>
+</html>
